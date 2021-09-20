@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(226, 244, 255);
+}
+
+h1{
+    color: white;
+    text-align: center;
+    border: solid 2px rgb(197, 206, 255);
+    padding: 10px;
+    margin: 20px;
+    background-color: rgb(197, 206, 255) ;
+}
+h2{
+
+    text-align: center;
+    border: solid 2px rgb(217, 230, 255);
+    padding: 10px;
+    margin: 20px;
+    background-color: rgb(217, 230, 255) ;
+}
+p{
+    border: solid 1px black;
+    margin: 10px;
+    padding: 10px;
+}
+img{
+    display: block;
+    margin: auto;
+}
+iframe{
+    display: block;
+    margin: auto;
+}
+
+

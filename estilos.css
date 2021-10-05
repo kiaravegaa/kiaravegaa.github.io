@@ -5,11 +5,11 @@ body{
 
 h1{
     color: white;
-    text-align: center;
-    border: solid 2px rgb(197, 206, 255);
+    text-align:left;
+    border: solid 2px rgb(146, 155, 206);
     padding: 10px;
-    margin: 20px;
-    background-color: rgb(197, 206, 255) ;
+
+    background-color: rgb(146, 155, 206) ;
 }
 h2{
 
@@ -85,6 +85,14 @@ input[type=submit] {
     border: none;
     border-radius: 4px;
     background-color: #f9faf9;
+  }
+
+  .lugar{
+      border-radius: 5px;
+  }
+
+  .menu{
+      text-decoration: none;
   }
 
 

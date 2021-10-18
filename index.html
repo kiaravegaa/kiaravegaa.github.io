@@ -7,7 +7,7 @@
 
 <body>
   <headed>
-    <img src="entrada.png" width="100px"></img>
+    <img src="entrada.png" width="100px">
 
     <table>
       <tr>
@@ -23,7 +23,7 @@
 
     <br>
 
-    <img class="img" src="rihanna.jpg" width="1000px" height="450"></img>
+    <img class="img" src="rihanna.jpg" width="1000px" height="450">
   </headed>
 
   <br>
@@ -115,12 +115,11 @@
   <h2 id="entradas">FUNCIONES ENTRADAS 2022</h2>
   <p align="center">Rihanna regresa a los escenarios con shows imperdibles y una puesta totalmente renovada presentando su nuevo Tour en el Teatro el Nacional Sancor Seguros, CABA.Los shows se realizarán con todos los protocolos sanitarios correspondientes.</p>
 
-  <form action="archivo.php" method="post">
-  
+  <form action="archivo.php" method="post" >
   Ingresar tu nombre <br>
   <input type="text" name="Nombre"><br><br>
 
-  Ingresar tu mail <br>
+  Ingresar tu E-mail <br>
   <input type="text" name="Mail"><br><br>
 
   Seleccionar la fecha <br>
@@ -131,6 +130,14 @@
     <option value="07/07/2022">07/07/2022</option>
     <option value="17/09/2022">17/09/2022</option>
   </select><br><br>
+  
+  Seleccionar cant. de entradas <br>
+  <select name="Cantidad">
+    <option value="1"> 1 </option>
+    <option value="2"> 2 </option>
+    <option value="3"> 3 </option>
+    <option value="4"> 4 </option>
+  </select><br><br>
 
   Seleccionar ubicación <br>
   <select name="Ubicacion">
@@ -140,15 +147,8 @@
     <option value="Pullman i">Pullman Izquierda</option>
     <option value="Palco">Palco</option>
   </select><br><br>
-  <img class="lugar" src="lugares.png" width="600px"><br><br>
-
-  Seleccionar cant. de entradas <br>
-  <select name="Cantidad>">
-    <option value="1"> 1 </option>
-    <option value="2"> 2 </option>
-    <option value="3"> 3 </option>
-    <option value="4"> 4 </option>
-  </select><br><br>
+  <img class="lugar" src="lugares.png" width="600px">
+  <br><br>
 
   Seleccionar forma de pago <br>
   <select name="Pago">
@@ -157,9 +157,23 @@
     <option value="Mercado pago">Mercado Pago</option>
   </select><br><br>
   
+  Si ha elegido Tajeta de debito/credito, seleccionar<br>
+  <select name="Cuotas">
+    <option value="uno">Ninguna</option>
+    <option value="dos">2 cuotas</option>
+    <option value="tres">3 cuotas</option>
+    <option value="seis">6 cuotas</option>
+    <option value="doce">12 cuotas</option>
+  </select><br><br>
+  
+  
   <input type="submit" value="Enviar">
-    </form>
+  
+  
+  </form>
 </div>
+
+
 
 </body>
 
